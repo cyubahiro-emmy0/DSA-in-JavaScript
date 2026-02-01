@@ -2,7 +2,7 @@ const letters = []; // This is our stack
 
 const word ="whoIsTheManager";
 
-const rword ="";
+let rword ="";
 
 //put the letters of the word in the stack
 for (let  i =0; i < word.length; i++){
