@@ -15,9 +15,9 @@ for (let  i = 0; i < word.length; i++){
 }
 
 if (rword === word){
-    console.log(`${word} is a palindrome`);
+    console.log('word is a palindrome');
 } else{
-    console.log(`${word} is not palindrome`);
+    console.log('word is not palindrome');
 }
 
 
