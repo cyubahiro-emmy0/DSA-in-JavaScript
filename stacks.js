@@ -9,3 +9,8 @@ for (var i =0; i < word.length; i++){
     letters.push(word[i]);
 }
 
+//Pop off the stack in reverse order
+for (var i = 0; i < word.length; i++){
+    rword += letters.pop();
+}
+
