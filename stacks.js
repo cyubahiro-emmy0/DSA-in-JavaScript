@@ -1,6 +1,6 @@
 var letters = []; // This is our stack
 
-var word = "racecar";
+var word ="whoIsTheManager";
 
 var rword ="";
 
