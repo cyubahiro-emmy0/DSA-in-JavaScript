@@ -1,6 +1,6 @@
-const letters = []; // This is our stack
+let  letters = []; // This is our stack
 
-const word ="whoIsTheManager";
+let  word ="whoIsTheManager";
 
 let rword ="";
 
