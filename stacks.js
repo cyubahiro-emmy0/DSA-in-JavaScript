@@ -1,16 +1,16 @@
-var letters = []; // This is our stack
+const letters = []; // This is our stack
 
-var word ="whoIsTheManager";
+const word ="whoIsTheManager";
 
-var rword ="";
+const rword ="";
 
 //put the letters of the word in the stack
-for (var i =0; i < word.length; i++){
+for (let  i =0; i < word.length; i++){
     letters.push(word[i]);
 }
 
 //Pop off the stack in reverse order
-for (var i = 0; i < word.length; i++){
+for (let  i = 0; i < word.length; i++){
     rword += letters.pop();
 }
 
