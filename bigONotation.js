@@ -4,3 +4,5 @@ function printOneToN(n) {
     }
     console.log("DONE");
 }
+
+printOneToN(3);
